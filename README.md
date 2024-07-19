@@ -1,6 +1,11 @@
 # Master Thesis Repository: Uncovering ChatGPT Biases in S&P 500 Company Responses
 
-This repository contains all the materials related to the research conducted for the Master Thesis titled "Uncovering ChatGPT Biases in S&P 500 Company Responses: A Qualitative and Quantitative Analysis". Here you will find files, documents, and Python code used in the study.
+This repository contains all the materials related to the research conducted for the Master Thesis titled:
+_"Uncovering ChatGPT Biases in S&P 500 Company Responses: A Qualitative and Quantitative Analysis"_
+
+Here you will find files, documents, and Python code used in the study. A short summary of the paper is provided at the bottom. 
+
+The thesis was completed under the supervision of Prof. Dr. Gregor Weiß at the University of Leipzig, Chair of Business Administration/Sustainable Financial Services, specifically Banking, received a grade of 1.0 and can be distributed bilaterally if interest exist.
 
 ## Contents
 
@@ -28,5 +33,12 @@ This repository contains all the materials related to the research conducted for
 ### Prompts
 - `Prompts_MA.docx`: Document listing the specific prompts used in the research (and more).
 
+## Summary
 
+This thesis investigates the biases present in ChatGPT's responses, particularly within the financial domain of S&P 500 companies. ChatGPT, an advanced AI developed by OpenAI, processes vast amounts of textual data to generate human-like responses. Despite its sophisticated design and extensive training, the potential for biases in its outputs exists due to the nature of its training data and underlying algorithms.
 
+The study aims to uncover whether ChatGPT's responses exhibit systematic biases—deviations from objective facts or subjective distortions—when addressing inquiries about S&P 500 companies. The research employs a dual methodology combining quantitative and qualitative approaches to analyze these biases.
+
+Quantitatively, the study develops a novel approach to measure deviations in ChatGPT's company-specific evaluations by comparing them with objective benchmarks. Qualitatively, sentiment analysis is used to examine the tone and potential biases in the language used in ChatGPT's responses.
+
+The findings reveal that while many responses align with expected neutrality, notable biases are observed, especially for companies with significant media presence or those in controversial industries. This work not only highlights potential distortions in ChatGPT's financial assessments but also provides a foundation for future research on biases in AI models and their implications for financial analysis and decision-making.
