@@ -1,5 +1,32 @@
-# Digital Appendix
+# Master Thesis Repository: Uncovering ChatGPT Biases in S&P 500 Company Responses
 
-## _Uncovering ChatGPT Biases in S&P 500 Company Re- sponses: A Qualitative and Quantitative Analysis_
+This repository contains all the materials related to the research conducted for the Master Thesis titled "Uncovering ChatGPT Biases in S&P 500 Company Responses: A Qualitative and Quantitative Analysis". Here you will find files, documents, and Python code used in the study.
 
-Diese repository zeigt alle für die Erhebung der Master-Thesis, mit dem Titel: **_Uncovering ChatGPT Biases in S&P 500 Company Re- sponses: A Qualitative and Quantitative Analysis_** , Dateien und Dokumente, sowie den zugrundeliegenden Python-Code. Die Excel-Dateien mit den Endungen __MA_ enthalten die archivierten Outputs von den unterschiedlichen Interaktionen mit **ChatGPT** (Modell **GPT-3.5 Turbo**). Als einzige Datei enthält _Quant_MA.xlsx_ die für die Arbeit zugrundeliegenden Inputs. Die Dateien mit den Endungen _Dict enthalten die Wörterbücher auf Basis der qualitative Teil der Arbeit, namentlich die Sentiment-Analyse, erhoben wird. Der Hauptteil des Python-Codes ist in **_MA.py_** zu finden, wobei Die anderen Scripte werden auf Modul-Basis von diesem Script importiert. Am Ende von _MA.py_ sind auch alle explizit für die Outputs definierten Funktionen zum Zwecke vollständiger Replikation dokumentiert. Die expliziten, in dieser Arbeit verwendeten (Jailbreak-)Prompts sind in dem Word-Dokument zu finden. In Absprache mit dem betreffenden Lehrstuhl kann die gesamte Arbeit gerne auf Anfrage zur Verfügung gestellt werden. Ein Auszug des Fazit wurde für informative Zwecke und zur intuitiveren Nutzung des repository zur Verfügung gestellt.
+## Contents
+
+### Data Files
+- `Quant_MA.xlsx`: Contains the input data used in the thesis.
+- `BWCount_MA.xlsx`: Data related to word counts.
+- `Further Findings.xlsx`: Additional findings and data.
+- `GSV_MA.xlsx`: Data related to GSV (Generic Sentiment Values).
+- `Grades_MA.xlsx`: Data on grading and evaluation.
+- `Responses_MA.xlsx`: Outputs from ChatGPT interactions.
+- `Sentiment_MA.xlsx`: Sentiment analysis results.
+
+### Dictionaries
+- `H4_Dict.xlsx`: Dictionary used for sentiment analysis.
+- `LM_Dict.xlsx`: Dictionary for additional qualitative analysis.
+- `SWN3.0_Dict.xlsx`: Sentiment WordNet 3.0 dictionary.
+- `VADER_Dict.xlsx`: VADER (Valence Aware Dictionary and sEntiment Reasoner) dictionary.
+
+### Python Code
+- `ma.py`: Main Python script containing the core functionality of the analysis.
+- `dict_ma.py`: Python script for handling dictionary-related functions.
+- `gsv_ma.py`: Python script for processing GSV-related data.
+- `ChatGPT_API.py`: Python script for interacting with the ChatGPT API.
+
+### Prompts
+- `Prompts_MA.docx`: Document listing the specific prompts used in the research.
+
+## Repository Structure
+
